@@ -22,4 +22,9 @@ Height of multiplication table: 8
   8  16  24  32  40  48  56  64  72  80
 """
 w = input("Width of multiplication table: ")
+w = int(w)
 h = input("Height of multiplication table: ")
+h = int(h)
+
+x = list (range (0, w, 1))
+print(x)
