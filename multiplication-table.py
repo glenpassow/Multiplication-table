@@ -26,13 +26,14 @@ w = int(w)
 h = input("Height of multiplication table: ")
 h = int(h)
 a = 1
-
+b = 1
 while h>0 :
-    x = list (range (1, w, a))
+    x = list (range (b, w, a))
     print(x)
     a = a + 1
     h = h - 1
     w = w*2
+    b = b+1
 
 
 
