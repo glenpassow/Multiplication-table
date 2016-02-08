@@ -23,15 +23,16 @@ Height of multiplication table: 8
 """
 w = input("Width of multiplication table: ")
 w = int(w)
-#h = input("Height of multiplication table: ")
-#h = int(h)
+h = input("Height of multiplication table: ")
+h = int(h)
 
 while h>0 :
-    
-    
-x = list (range (1, w, 1))
-print(x)
-y
+    x = list (range (1, w, a))
+    print(x)
+    a = a + 1
+    h = h - 1
+else
+print("all done")
 
 
 
