@@ -30,10 +30,12 @@ b = 1
 while h>0 :
     x = list (range (b, w + 1, a))
     print(x)
-    a = a + 1
     h = h - 1
+    b = b + 1
+    a = a + 1
+    
     w = w + a + 1
-    b = b+1
+    
 
 
 
