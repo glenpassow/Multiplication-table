@@ -28,11 +28,11 @@ h = int(h)
 a = 1
 b = 1
 while h>0 :
-    x = list (range (b, w, a))
+    x = list (range (b, w + 1, a))
     print(x)
     a = a + 1
     h = h - 1
-    w = w*1.5
+    w = w + a + 1
     b = b+1
 
 
