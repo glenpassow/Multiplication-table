@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Glen Passow
-Credit: Hagin
+Credit: Hagin, Max
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -32,7 +32,7 @@ while h>0 :
     print(x)
     a = a + 1
     h = h - 1
-    w = w*2
+    w = w*1.5
     b = b+1
 
 
