@@ -27,8 +27,10 @@ h = input("Height of multiplication table: ")
 h = int(h)
 k = 1
 while k<=h :
-    x = list (range (k, k*w + 1, k))
-    print(x)
+    y = list (range (k, k*w + 1, k))
+    str1 = " ".join(str(x) for x in y)
+    print(str1)
+    
     k = k + 1
 
     
